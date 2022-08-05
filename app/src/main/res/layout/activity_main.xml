@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profilo" />
+
+    <EditText
+        android:id="@+id/kullaniciAdi_txt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+
+
+        android:drawablePadding="5sp"
+        android:ems="10"
+        android:hint="kullanıcı adı"
+        android:inputType="textEmailAddress"
+        android:padding="17dp"
+        android:textSize="17dp" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="10dp">
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/passw_txt"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="şifre"
+
+        android:inputType="textPassword"
+
+        android:drawablePadding="17dp"
+        android:padding="17dp"
+
+        android:textSize="17sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp">
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="103dp"
+            android:layout_height="39dp"
+            android:backgroundTint="@color/orange"
+            android:textColorHighlight="@color/white"
+
+            android:text="Giriş" />
+
+        <LinearLayout
+            android:layout_width="10dp"
+            android:layout_height="0dp"></LinearLayout>
+
+        <Button
+            android:id="@+id/register_btn"
+
+            android:layout_width="103dp"
+            android:layout_height="39dp"
+            android:backgroundTint="@color/orange"
+            android:textColorHighlight="@color/white"
+
+            android:text ="Kayıt Ol"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></LinearLayout>
+
+
+
+
+</LinearLayout>
+
+

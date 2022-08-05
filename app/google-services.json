@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172339164844",
+    "project_id": "profilo-staj",
+    "storage_bucket": "profilo-staj.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172339164844:android:6ae8e70483ad903b299109",
+        "android_client_info": {
+          "package_name": "com.mert.admadm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172339164844-atjfo1fr9afdegl08uh8j0i0bs5looi9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvVTH1ZmMo0wP2N5LjXm2al85Ohqcqwq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172339164844-atjfo1fr9afdegl08uh8j0i0bs5looi9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
