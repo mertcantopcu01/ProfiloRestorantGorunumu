@@ -3,17 +3,57 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/account.xml" value="0.336" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/background.xml" value="0.1935" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/button_background.xml" value="0.336" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/buttonarkaplan.xml" value="0.336" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/edittextarkaplan.xml" value="0.336" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/ic_baseline_access_time_24.xml" value="0.336" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.34" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/ic_baseline_date_range_24.xml" value="0.336" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/ic_baseline_mail_24.xml" value="0.325" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/ic_baseline_party_mode_24.xml" value="0.336" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/ic_baseline_pedal_bike_24.xml" value="0.336" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.325" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/lock.xml" value="0.336" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/logo.xml" value="0.336" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/drawable/profil.xml" value="0.204" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_ayarlar.xml" value="0.2972027972027972" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_bilgiler_degis.xml" value="0.3213213213213213" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_call.xml" value="0.3625" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_deneme.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_firindan.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_giris.xml" value="0.35833333333333334" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_hakkimizda.xml" value="0.33" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_hohho.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_hoho.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_main.xml" value="0.3484375" />
-        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_menu.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_icecekler.xml" value="0.33" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_iletisim.xml" value="0.3625" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_kobay.xml" value="0.3625" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_main2.xml" value="0.3177083333333333" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_main3.xml" value="0.28052805280528054" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_menu.xml" value="0.33" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_new_uye_ol.xml" value="0.3625" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_profil.xml" value="0.33" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_profil_deneme.xml" value="0.3625" />
         <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_sicak_icecekler.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_sikayet.xml" value="0.3625" />
         <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_soguk_icecekler.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_splash_screen.xml" value="0.358695652173913" />
         <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_urunler.xml" value="0.358695652173913" />
-        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_userlist.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_userlist.xml" value="0.25" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_uye_ol.xml" value="0.3625" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_yardim.xml" value="0.3625" />
         <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_yemekler.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/activity_yeni_icecekler.xml" value="0.19479166666666667" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/fatura_detay.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/fragment_icecek.xml" value="0.3484375" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/fragment_yemek.xml" value="0.25" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/icecek_fragment.xml" value="0.3614583333333333" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/list_urunler.xml" value="0.3614583333333333" />
         <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/user_item.xml" value="0.358695652173913" />
+        <entry key="..\:/Users/Monster/AndroidStudioProjects/Profilo/app/src/main/res/layout/yiyecek_fragment.xml" value="0.3625" />
       </map>
     </option>
   </component>

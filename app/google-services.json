@@ -1,33 +1,92 @@
 {
   "project_info": {
-    "project_number": "172339164844",
-    "project_id": "profilo-staj",
-    "storage_bucket": "profilo-staj.appspot.com"
+    "project_number": "715219331626",
+    "firebase_url": "https://deneme123-575fb-default-rtdb.firebaseio.com",
+    "project_id": "deneme123-575fb",
+    "storage_bucket": "deneme123-575fb.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:172339164844:android:6ae8e70483ad903b299109",
+        "mobilesdk_app_id": "1:715219331626:android:2859bc2c0e038d61217153",
         "android_client_info": {
-          "package_name": "com.mert.admadm"
+          "package_name": "com.mert.hahahaha"
         }
       },
       "oauth_client": [
         {
-          "client_id": "172339164844-atjfo1fr9afdegl08uh8j0i0bs5looi9.apps.googleusercontent.com",
+          "client_id": "715219331626-bgigunevq1iods0mebo5p0c55ib5tjfk.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDvVTH1ZmMo0wP2N5LjXm2al85Ohqcqwq0"
+          "current_key": "AIzaSyBKi7fNRCiVAPExJeDAtbH40JhyAhAT9Lg"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "172339164844-atjfo1fr9afdegl08uh8j0i0bs5looi9.apps.googleusercontent.com",
+              "client_id": "715219331626-bgigunevq1iods0mebo5p0c55ib5tjfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715219331626:android:fd6a8fc3435c6e5d217153",
+        "android_client_info": {
+          "package_name": "com.mert.malkinfo.kobayproje"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715219331626-bgigunevq1iods0mebo5p0c55ib5tjfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKi7fNRCiVAPExJeDAtbH40JhyAhAT9Lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715219331626-bgigunevq1iods0mebo5p0c55ib5tjfk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715219331626:android:24cba4177cb26124217153",
+        "android_client_info": {
+          "package_name": "com.mert.malkinfo.profilo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715219331626-bgigunevq1iods0mebo5p0c55ib5tjfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKi7fNRCiVAPExJeDAtbH40JhyAhAT9Lg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715219331626-bgigunevq1iods0mebo5p0c55ib5tjfk.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

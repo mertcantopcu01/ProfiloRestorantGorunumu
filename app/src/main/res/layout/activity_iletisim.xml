@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    tools:context=".ayarlar.IletisimActivity"
+    android:layout_weight="1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/white">
+
+
+        <ImageButton
+            android:id="@+id/btnGeri"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/back"
+            android:textColor="#494948"
+            android:textSize="16sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.496"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.694" />
+    </LinearLayout>
+
+
+
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:src="@drawable/profilo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+        app:layout_constraintVertical_bias="0.279" />
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:text="  7 gün 24 saat ulaşabileceğiniz müşteri hizmetleri iletişim
+        NUMARAMIZ:"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:background="@color/white"></LinearLayout>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnArama"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:text="0850 222 72 72"
+        android:textColor="@color/blue"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/white"></LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/white"></LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:text="   Mail destek adresimiz: info@edata.com.tr"/>
+
+
+</LinearLayout>

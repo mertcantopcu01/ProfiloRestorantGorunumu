@@ -3,45 +3,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.mert.malkinfo.profilo">
 
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/profi"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/profi"
         android:supportsRtl="true"
         android:theme="@style/Theme.Profilo"
         tools:targetApi="31">
         <activity
-            android:name=".UrunlerActivity"
+            android:name=".Menuler.UrunlerActivity"
             android:exported="false" />
         <activity
-            android:name=".hoho"
+            android:name=".mainler.newUyeOlActivity"
             android:exported="false" />
         <activity
-            android:name=".SogukIceceklerActivity"
+            android:name=".ayarlar.IletisimActivity"
             android:exported="false" />
         <activity
-            android:name=".SicakIceceklerActivity"
+            android:name=".ayarlar.HakkimizdaActivity"
             android:exported="false" />
         <activity
-            android:name=".YemeklerActivity"
+            android:name=".ayarlar.SikayetActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ayarlar.BilgilerDegisActivity"
             android:exported="false" />
         <activity
-            android:name=".FirindanActivity"
+            android:name=".Menuler.AyarlarActivity"
+            android:exported="false" />
+
+        <activity
+            android:name=".faturalar.UserlistActivity"
             android:exported="false" />
         <activity
-            android:name=".UserlistActivity"
+            android:name=".Menuler.MenuActivity"
             android:exported="false" />
         <activity
-            android:name=".MenuActivity"
+            android:name=".mainler.GirisActivity"
             android:exported="false" />
         <activity
-            android:name="com.mert.malkinfo.profilo.MainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".SplashScreenActivity"
+            android:name=".mainler.SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar">
             <intent-filter>

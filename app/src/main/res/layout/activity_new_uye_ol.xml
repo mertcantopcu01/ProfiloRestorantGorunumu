@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="350dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    tools:context=".mainler.newUyeOlActivity"
+    android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:src="@drawable/profilo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+        app:layout_constraintVertical_bias="0.279" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="@color/white"></LinearLayout>
+
+
+    <EditText
+        android:id="@+id/kayitMail"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/edittextarkaplan"
+        android:drawableLeft="@drawable/ic_baseline_mail_24"
+        android:ems="10"
+        android:hint="Mail Adresini Giriniz"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/grey"></LinearLayout>
+
+
+    <EditText
+        android:id="@+id/kayitParola"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/edittextarkaplan"
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:hint="Parolanızı Oluşturunuz"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kayitKullaniciAdi"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/grey"></LinearLayout>
+
+    <EditText
+        android:id="@+id/kayitParolaDogrulama"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:background="@drawable/edittextarkaplan"
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:hint="Parolanızı doğrulayın"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@color/grey"></LinearLayout>
+
+
+
+
+
+    <Button
+        android:id="@+id/btnKayitOl"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="Kayıt Ol"
+        android:textSize="18sp"
+
+        android:backgroundTint="@color/orange"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+
+    <Button
+        android:id="@+id/btnGiriseDon"
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:text="Giriş Ekranına Dön"
+        android:backgroundTint="@color/orange"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKayitOl"
+        app:layout_constraintVertical_bias="0.131" />
+
+
+
+
+</LinearLayout>

@@ -5,17 +5,38 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".UserlistActivity">
+    tools:context=".faturalar.UserlistActivity"
+    android:orientation="vertical">
+<LinearLayout
+    android:id="@+id/linear5"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
 
+    <ImageButton
+        android:id="@+id/btnGeri"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/back"
+        android:textColor="#494948"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+</LinearLayout>
     <androidx.recyclerview.widget.RecyclerView
 
         android:id="@+id/userList"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="0dp"
+        android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linear5"
         tools:listitem="@layout/user_item" />
 
 

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    tools:context=".mainler.MainActivity2"
+    android:layout_weight="1">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/profilo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1"
+        app:layout_constraintVertical_bias="0.279" />
+
+    <EditText
+        android:id="@+id/kayitKullaniciAdi"
+        android:layout_width="408dp"
+        android:layout_height="49dp"
+        android:background="@drawable/edittextarkaplan"
+        android:drawableLeft="@drawable/account"
+        android:ems="10"
+        android:hint="Kullanıcı Adı Olustur"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="411dp"
+        android:layout_height="1dp"
+        android:background="@color/black"></LinearLayout>
+
+
+    <EditText
+        android:id="@+id/kayitParola"
+        android:layout_width="408dp"
+        android:layout_height="49dp"
+        android:background="@drawable/edittextarkaplan"
+        android:drawableLeft="@drawable/lock"
+        android:ems="10"
+        android:hint="Parola Oluştur"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kayitKullaniciAdi"
+        app:layout_constraintVertical_bias="0.082" />
+
+    <Button
+        android:id="@+id/btnKayitOl"
+        android:layout_width="250dp"
+        android:layout_height="57dp"
+        android:text="Kayıt Ol"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.715" />
+
+
+
+    <Button
+        android:id="@+id/btnGiriseDon"
+        android:layout_width="250dp"
+        android:layout_height="57dp"
+        android:text="Giriş Ekranına Dön"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnKayitOl"
+        app:layout_constraintVertical_bias="0.131" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></LinearLayout>
+
+
+
+
+</LinearLayout>

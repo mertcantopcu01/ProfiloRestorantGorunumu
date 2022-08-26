@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+
+    tools:context=".Menuler.AyarlarActivity"
+    android:layout_weight="1">
+
+
+
+    <Button
+        android:id="@+id/btnSikayet"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/grey"
+        android:ems="10"
+        android:hint="Sikayet Maili Gönder"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#FF0000"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.248" />
+
+    <Button
+        android:id="@+id/btndegis"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/grey"
+        android:ems="10"
+        android:hint="Hesap Bilgilerini Değiştir"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#FF0000"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.337" />
+
+    <Button
+        android:id="@+id/btnHakkimizda"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/grey"
+        android:ems="10"
+        android:hint="Hakkımızda"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#FF0000"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.157" />
+
+    <Button
+        android:id="@+id/btnIletisim"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:backgroundTint="@color/grey"
+        android:ems="10"
+        android:hint="İletişim"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#FF0000"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067" />
+
+    <Button
+        android:id="@+id/btnCikis"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:backgroundTint="#FF0000"
+        android:ems="10"
+        android:hint="Çıkış Yap"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#FF0000"
+        android:textColorHint="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.436" />
+
+    <ImageButton
+        android:id="@+id/btnGeri"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"
+        android:textColor="#494948"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="45dp"
+        android:text="P R O F İ L O"
+        android:textColor="@color/profiloyaisi"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.558"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ayarlar.SikayetActivity">
+
+    <ImageButton
+        android:id="@+id/btnGeri"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/back"
+        android:textColor="#494948"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.694" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To :"
+        android:textColor="@color/black"
+        android:layout_margin="16dp"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/mailA"
+        android:layout_width="387dp"
+        android:layout_height="33dp"
+        android:layout_marginHorizontal="16dp"
+        android:hint="" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25sp"
+        android:backgroundTint="@color/white"></LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subject :"
+        android:textColor="@color/black"
+        android:layout_margin="16dp"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mailSub"
+        android:layout_marginHorizontal="16dp"
+        android:hint="" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:backgroundTint="@color/white"></LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Message :"
+        android:textColor="@color/black"
+        android:layout_margin="16dp"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25sp"
+        android:backgroundTint="@color/white"></LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mailMes"
+        android:textSize="15dp"
+        android:layout_marginHorizontal="16dp"
+        android:hint=""
+        android:gravity="start" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20sp"
+        android:backgroundTint="@color/white"></LinearLayout>
+
+    <Button
+        android:id="@+id/btnMail"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="30dp"
+        android:backgroundTint="@color/orange"
+        android:text="Mail"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

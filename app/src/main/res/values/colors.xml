@@ -1,14 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="purple_200">#FF0070d3</color>
-    <color name="purple_500">#FF00529b</color>
+    <color name="purple_500">#FFA500</color>
     <color name="purple_700">#FF004079</color>
     <color name="teal_200">#FF03DAC5</color>
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <color name="white">#FFFFFF</color>
     <color name="orange">#FFF05300</color>
     <color name="blue">#FF00529B</color>
-    <color name="grey">#FF494948</color>
+    <color name="grey">#DCD6D6</color>
+    <color name="constraintCalor">#1f1c27</color>
+    <color name="edittextColor">#FFFFFFFF</color>
+    <color name="btnCollor">#FFA500</color>
+    <color name="profiloyaisi">#00529B</color>
+
+    <color name="underline">#D8D6D6</color>
 
 </resources>
