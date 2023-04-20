@@ -19,6 +19,9 @@ class GirisActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityGirisBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        /*
+        TEST
+         */
 
         firebaseAuth = FirebaseAuth.getInstance()
 
